@@ -112,13 +112,14 @@ plt.show()
 ```
 Output
 Dataset (first 5 rows):
+```
   Species  Weight  Length1  Length2  Length3   Height   Width
 0   Roach   259.1     25.1     27.2     29.9   8.8210  4.6136
 1   Bream   423.2     29.0     30.9     33.5  13.4218  5.6620
 2   Roach   151.1     21.4     23.2     25.2   7.2479  3.9580
 3   Perch   523.2     31.5     34.2     37.6   9.9794  5.5136
 4   Perch   355.7     27.3     29.9     32.9   8.7762  4.7713
-
+```
 Shape: (55, 7)
 Columns: ['Species', 'Weight', 'Length1', 'Length2', 'Length3', 'Height', 'Width']
 
@@ -132,7 +133,7 @@ Regression Equation:
 Weight = -495.3804 + (38.4414 x L) + (25.8040 x Height) + (-107.6604 x Width)
 
 R-squared (R2) Score: 0.9140
-
+```
 Actual vs Predicted Weight (first 10 rows):
    Actual  Predicted
 0   259.1     288.83
@@ -146,5 +147,6 @@ Actual vs Predicted Weight (first 10 rows):
 8    15.2     -81.75
 9   573.8     538.79
 
+```
 ## Result
 Thus, Multiple Linear Regression on the fish dataset (Fish_length.csv) was executed successfully.
